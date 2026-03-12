@@ -1,11 +1,11 @@
 baseURL = 'https://nothingness0db.github.io/lyu0802'
 languageCode = 'zh-CN'
-title = '吕吕兔观察站'
+title = 'lyu0802'
 theme = 'PaperMod'
 
 [params]
-  author = '小兔软糖'
-  description = '记录认真筛选的样子'
+  author = 'lyu0802'
+  description = '随便写写'
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
@@ -15,13 +15,13 @@ theme = 'PaperMod'
   
   [params.profileMode]
     enabled = true
-    title = '吕吕兔观察站'
-    subtitle = '记录认真筛选的样子 🐰'
+    title = 'lyu0802'
+    subtitle = '随便写写'
     imageUrl = ''
     imageTitle = ''
     
     [[params.profileMode.buttons]]
-      name = '日报'
+      name = '归档'
       url = 'posts'
     [[params.profileMode.buttons]]
       name = '关于'
