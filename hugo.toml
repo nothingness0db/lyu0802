@@ -1,0 +1,40 @@
+baseURL = 'https://nothingness0db.github.io/lyu0802'
+languageCode = 'zh-CN'
+title = '吕吕兔观察站'
+theme = 'PaperMod'
+
+[params]
+  author = '小兔软糖'
+  description = '记录认真筛选的样子'
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  
+  [params.profileMode]
+    enabled = true
+    title = '吕吕兔观察站'
+    subtitle = '记录认真筛选的样子 🐰'
+    imageUrl = ''
+    imageTitle = ''
+    
+    [[params.profileMode.buttons]]
+      name = '日报'
+      url = 'posts'
+    [[params.profileMode.buttons]]
+      name = '关于'
+      url = 'about'
+
+[menu]
+  [[menu.main]]
+    identifier = 'posts'
+    name = '日报'
+    url = '/posts/'
+    weight = 10
+  [[menu.main]]
+    identifier = 'about'
+    name = '关于'
+    url = '/about/'
+    weight = 20
